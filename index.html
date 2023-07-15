@@ -493,6 +493,23 @@
       }
       
     </style>
+    <style>
+        .n-columns-6{
+             display: grid;
+             grid-template-columns: repeat(6, 1fr);
+        }
+        @media only screen and (max-width: 768px){
+            .n-columns-m-3{
+                 grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        .n-columns-gap{
+             grid-gap: min(max(8px, 2vmin), 20px);
+        }
+        .n-slots{
+             border-radius: 15px;
+        }
+        </style>
   </head>
   <body>
     <header id="topHeader">
@@ -543,9 +560,10 @@
       <div class="cont-banner m-1">
         <div class="banner-1nplay">
           <amp-carousel width="702" height="446" layout="responsive" type="slides" autoplay delay="3000" role="region">
-            <amp-img src="https://files.sitestatic.net/banners/647b5020a9481_member-baru-mobile-1nplay.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
-            <amp-img src="https://files.sitestatic.net/banners/6499551d46c23_mobile%20bonus%20deposit%201nplay%201%20kali%20to.jpg.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
             <amp-img src="https://files.sitestatic.net/banners/649fb2930cf44_bonus-deposit-harian-1nplay-terbaru-mobile.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
+            <amp-img src="https://files.sitestatic.net/banners/647b5020a9481_member-baru-mobile-1nplay.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
+            <amp-img src="https://files.sitestatic.net/banners/64a6d48b36860_mobile-bonus-deposit-member-baru-20-1nplay.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
+            <amp-img src="https://files.sitestatic.net/banners/649fb6f916e50_deposit-tanpa-potongan-1nplay-terbaru-mobile.jpg" width="702" height="446" layout="responsive" title="1nplay" alt="1nplay"></amp-img>
         </div>
       </div>
     </div>
@@ -581,7 +599,24 @@
             </tr>
           </tbody>
         </table>
+        <section class="m-1">
+            <div class="n-columns-6 n-columns-m-3 n-columns-gap">
+                <amp-img class="n-slots" src="https://i.imgur.com/2znOSLc.jpg" alt="Gates of Olympus 1NPLAY" width="175"
+                    height="236" layout="responsive"></amp-img>
+                <amp-img class="n-slots" src="https://i.imgur.com/AaiUiJC.jpg" alt="Sweet Bonanza 1NPLAY" width="175"
+                    height="236" layout="responsive"></amp-img>
+                <amp-img class="n-slots" src="https://i.imgur.com/d6Ii5Cu.jpg" alt="Starlight Princess 1NPLAY"
+                    width="175" height="236" layout="responsive"></amp-img>
+                <amp-img class="n-slots" src="https://i.imgur.com/MS2XLWV.jpg" alt="Slot Deposit Pulsa Mahjong Ways 2"
+                    width="175" height="236" layout="responsive"></amp-img>
+                <amp-img class="n-slots" src="https://i.imgur.com/dkpAfRW.jpg" alt="Slot Pulsa Wild West Gold" width="175"
+                    height="236" layout="responsive"></amp-img>
+                <amp-img class="n-slots" src="https://i.imgur.com/ZUnL6kx.jpg" alt="Slot Online Koi Gate" width="175" height="236"
+                    layout="responsive"></amp-img>
+            </div>
+        </section>
       </section>
+      
     <div class="container-global">
       <div class="cont-primary m-1 start-seo">
         <div class="seo">
